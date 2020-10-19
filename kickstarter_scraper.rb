@@ -1,4 +1,3 @@
-# require libraries/modules here
 require 'nokogiri'
 
 def create_project_hash
@@ -16,3 +15,5 @@ def create_project_hash
   end
   projects
 end
+
+puts create_project_hash
